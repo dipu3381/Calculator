@@ -124,7 +124,7 @@ function App() {
   
 
   return (
-  <div className='container'>
+<> <div className='container'>
     <h3>CALCULATOR</h3>
     <div className="calculator-grid">
       <div className="output">
@@ -151,7 +151,8 @@ function App() {
       <button className="span-two"onClick={()=>dispatch({type: ACTIONS.EVALUATE})}>=</button>
       
     </div>
-  </div>
+    </div>
+    </>
   );
 }
 
